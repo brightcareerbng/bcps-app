@@ -1,91 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<title>BCPS App Download</title>
+<title>BCPS App</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <style>
-body{
-  margin:0;
-  padding:0;
-  font-family: Arial, Helvetica, sans-serif;
-  background:#f2f4f8;
+body{font-family:Arial;background:#f2f2f2;margin:0}
+.box{
+max-width:400px;
+margin:40px auto;
+background:#fff;
+padding:20px;
+border-radius:12px;
+text-align:center;
+box-shadow:0 4px 12px rgba(0,0,0,.15);
 }
-.card{
-  max-width:420px;
-  margin:40px auto;
-  background:#ffffff;
-  border-radius:14px;
-  box-shadow:0 6px 18px rgba(0,0,0,0.12);
-  text-align:center;
-  padding:25px;
-}
-.logo{
-  width:100px;
-  height:100px;
-  object-fit:contain;
-  border-radius:20px;
-  margin-bottom:10px;
-}
-h2{
-  margin:10px 0 5px;
-  color:#0a58ca;
-}
-p{
-  margin:5px 0;
-  color:#555;
-}
-.qr img{
-  margin:15px 0;
-  width:200px;
-}
-.btn{
-  display:block;
-  margin-top:10px;
-  background:#0a58ca;
-  color:#fff;
-  text-decoration:none;
-  padding:14px;
-  border-radius:10px;
-  font-size:16px;
-  font-weight:bold;
-}
-.note{
-  font-size:13px;
-  margin-top:10px;
-  color:#666;
+img{width:90px;border-radius:18px}
+a{
+display:block;
+margin-top:15px;
+background:#0a58ca;
+color:#fff;
+padding:14px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
 }
 </style>
 </head>
-
 <body>
 
-<div class="card">
+<div class="box">
+<img src="logo.png">
+<h2>BCPS App</h2>
+<p>Bright Career Public School</p>
 
-  <!-- LOGO -->
-  <img src="logo.png" class="logo" alt="BCPS Logo">
+<a href="bcps-app.apk">⬇ Download Android APK</a>
 
-  <!-- APP NAME -->
-  <h2>BCPS App</h2>
-  <p>Bright Career Public School</p>
-
-  <!-- QR CODE (same page link) -->
-  <div class="qr">
-    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://brightcareerbng.github.io/bcps-app/">
-  </div>
-
-  <!-- DOWNLOAD BUTTON (APK ROOT ME HAI) -->
-  <a class="btn" href="bcps-app.apk">
-    ⬇ Download Android APK
-  </a>
-
-  <p class="note">
-    Download ke baad APK open karein<br>
-    “Install Unknown Apps” ko Allow karein
-  </p>
-
+<p style="font-size:13px;color:#555">
+Download ke baad APK open karke<br>
+Install allow karein
+</p>
 </div>
 
 </body>
 </html>
+
